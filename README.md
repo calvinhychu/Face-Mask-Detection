@@ -24,7 +24,7 @@ After trial with Adam and Stochastic gradient descent (SGD) as optimizer to chan
 
 Training and testing results are shown in plots below.
 
-<img src="./misc/training_summary.png"/>
+<img src="./misc/training_summary.png" width = 350 height = 300/>
 
 ## Computer Vision
 Built-in frontal face classifier in OpenCV is used to detect human face via a webcam. Every facial detected frame will be captured and resized and converted to a numpy array to fit the trained model. The model will then predict if the human in the captured frame has a mask on or not with a confidence percentage. If for 90 frames in a row where the model predicted the user has a mask on with more than 99% confidence, a message will be on screen to signify the user is wearing a mask and wearing it properly.
